@@ -1,0 +1,142 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  overflow: hidden;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('logo/r3.jpeg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.7);
+  z-index: -1;
+}
+
+/* Container for the portfolio picture */
+.portfolio-picture {
+  width: 150px; /* Adjust the size of the picture */
+  height: 150px; /* Ensure the height and width are equal for a perfect circle */
+  border-radius: 50%; /* This makes the image round */
+  object-fit: cover; /* Ensures the image fits the circle without distortion */
+  position: absolute; /* To position the image at the top center */
+  top: 20px; /* Distance from the top of the page */
+  left: 50%; /* Centers it horizontally */
+  transform: translateX(-50%); /* Offsets the element by 50% of its own width to truly center it */
+}
+
+/* Title and position container */
+.profile-text {
+  text-align: center; /* Centers the text below the image */
+  position: absolute; /* Allows for positioning below the image */
+  top: 180px; /* Adjust this to position text below the image */
+  left: 50%; /* Centers the text horizontally */
+  transform: translateX(-50%); /* Centers it properly */
+  font-family: Arial, sans-serif; /* Change the font as you like */
+}
+
+.profile-text h1 {
+  margin: 0;
+  font-size: 24px; /* Adjust the font size for the title */
+color: white;
+}
+
+.profile-text p {
+  margin: 5px 0;
+  font-size: 18px; /* Adjust the font size for the position */
+  color: white; /* Add color to the position text */
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  padding-top: 30%;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Contact Form Styles */
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-container input, .form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container .btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container .btn.cancel {
+  background-color: #ccc;
+  margin-top: 10px;
+}
+
+.form-container .btn.cancel:hover {
+  background-color: #999;
+}

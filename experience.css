@@ -1,0 +1,128 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  //height: 100%;
+  //overflow: hidden;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 33%;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.7);
+  z-index: -1;
+}
+/* First background image */
+    .background-top {
+      background-image: url('logo/mbc5.jpg'); /* Example image 1 */
+      top: 0;
+    }
+
+    /* Second background image */
+    .background-middle {
+      background-image: url('logo/mbc4.jpg'); /* Example image 2 */
+      top: 33%;
+    }
+
+    /* Third background image */
+    .background-bottom {
+      background-image: url('logo/mbc3.jpg'); /* Example image 3 */
+      top: 66%;
+    }
+
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  padding-top: 0%;
+  padding-bottom: 20%;
+
+}
+/*
+  .top {
+      padding: 20px;
+      background-color: #3c8dbc;
+      color: white;
+      text-align: center;
+    }
+*/
+html {
+    scroll-behavior: smooth;
+}
+
+
+h1 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+h1 span{
+margin-right: 40px;
+}
+
+h2 span{
+	
+	background-color: #007BFF; 
+	color: white;
+}
+
+p {
+  font-size: 1rem;
+
+}
+
+/*
+.button-like {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+
+}
+.button-like:hover {
+    background-color: #0056b3;
+}
+
+.button-like:active {
+    background-color: #003d7a;
+}
+*/
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
