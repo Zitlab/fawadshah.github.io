@@ -20,19 +20,19 @@ body, html {
 }
 /* First background image */
     .background-top {
-      background-image: url('logo/mbc5.jpg'); /* Example image 1 */
+      background-image: url('mbc5.jpg'); /* Example image 1 */
       top: 0;
     }
 
     /* Second background image */
     .background-middle {
-      background-image: url('logo/mbc4.jpg'); /* Example image 2 */
+      background-image: url('mbc4.jpg'); /* Example image 2 */
       top: 33%;
     }
 
     /* Third background image */
     .background-bottom {
-      background-image: url('logo/mbc3.jpg'); /* Example image 3 */
+      background-image: url('mbc3.jpg'); /* Example image 3 */
       top: 66%;
     }
 
