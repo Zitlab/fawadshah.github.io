@@ -20,7 +20,7 @@ body, html {
 }
 /* First background image */
     .background-top {
-      background-image: url('mbc6.jpg'); /* Example image 1 */
+      background-image: url('pcr.jpg'); /* Example image 1 */
       top: 0;
     }
 
@@ -32,7 +32,7 @@ body, html {
 
     /* Third background image */
     .background-bottom {
-      background-image: url('mbc4.jpg'); /* Example image 3 */
+      background-image: url('AJ7.jpg'); /* Example image 3 */
       top: 66%;
     }
 
