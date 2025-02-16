@@ -13,7 +13,7 @@ body, html {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('logo/r3.jpeg'); /* Replace with your image path */
+  background-image: url('r3.jpeg'); /* Replace with your image path */
   background-size: cover;
   background-position: center;
   filter: brightness(0.7);
