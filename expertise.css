@@ -30,18 +30,18 @@ html {
 }
 /* First background image */
     .background-top {
-      background-image: url('logo/bbc1.jpg'); /* Example image 1 */
+      background-image: url('bbc1.jpg'); /* Example image 1 */
       top: 0;
     }
 
     /* Second background image */
     .background-middle {
-      background-image: url('logo/mbc1.jpg'); /* Example image 2 */
+      background-image: url('mbc1.jpg'); /* Example image 2 */
       top: 33%;
     }
 /* third background image */
     .background-bottom {
-      background-image: url('logo/AJ6.jpg'); /* Example image 2 */
+      background-image: url('AJ6.jpg'); /* Example image 2 */
       top: 66%;
     }
 
