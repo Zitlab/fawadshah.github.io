@@ -1,0 +1,97 @@
+/* Reset default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Set up body to take full screen and center content */
+body {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center;     /* Vertically center the content */
+    height: 100vh;           /* Take full viewport height */
+    background-color: #f4f4f4; /* Light background color for the page */
+    margin: 0;
+}
+
+/* Link styling (removes default link styling) */
+.banner-link {
+    text-decoration: none; /* Remove underline from the link */
+}
+
+/* Styling for the transparent button */
+.reactive-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 765px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
+    color: white;
+    border: none;
+    border-radius: 15px; /* Rounded corners */
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.reactive-banner h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.reactive-banner p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Hover effect for the button */
+.reactive-banner:hover {
+    background-color: rgba(0, 0, 0, 0.5); /* Darker transparent background */
+    transform: scale(1.05); /* Slightly increase the size on hover */
+}
+
+/* Active click effect */
+.reactive-banner:active {
+    background-color: rgba(0, 0, 0, 0.7); /* Even darker transparent background on click */
+    transform: scale(0.98); /* Slightly shrink the button on click */
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('logo/event.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.7);
+  z-index: -1;
+}
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 20%;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
