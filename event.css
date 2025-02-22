@@ -66,7 +66,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('logo/event.jpg'); /* Replace with your image path */
+  background-image: url('event.jpg'); /* Replace with your image path */
   background-size: cover;
   background-position: center;
   filter: brightness(0.7);
