@@ -41,3 +41,7 @@ document.getElementById('experienceBtn').addEventListener('click', function() {
 document.getElementById('expertiseBtn').addEventListener('click', function() {
   window.location.href = 'expertise.html'; // Replace with your Expertise page path
 });
+// Redirect to Expertise Page
+document.getElementById('eventBtn').addEventListener('click', function() {
+  window.location.href = 'event.html'; // Replace with your Expertise page path
+});
